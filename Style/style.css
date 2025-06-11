@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --branco-principal: #ffff;
+    --cinza-sec: #C0C0C0;
+    --button-blue: #167BF7;
+    --background: #00030C;
+
+    /*fontes*/
+    --font-inter: "Inter";
+}
+
+*{
+   margin: 0px; 
+   padding: 0px;
+}
+
+body{
+    background: var(--background);
+    font-family: var(--font-inter);
+    color: var(--branco-principal);
+
+    font-size: 16px;
+    width: 400;
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: 45% 50%;
+    height: 100vh;
+}
+
+.conteiner_primeiro{
+    background: url(/Img/Background.png); /*IMG de BG é definida pelo CSS Com a tag url(""); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    margin: 0 5%;
+}
+
+.titulo__apresentacao{
+    font-size: 28px;
+    margin-top: 20%;
+}
+
+.img__combo-alura{
+    margin: 1em 0 2em 0
+}
+
+.button__assine-alura{
+    color: var(--branco-principal);
+    text-decoration: none;
+    background: var(--button-blue);
+    border-radius: 3px;
+
+    border: solid 1px var(--branco-principal) ;
+    padding: 1em;
+    margin: 1em 8em;
+    display: block;
+}
+
+.button__alura-plus{
+    color: var(--branco-principal);
+    text-decoration: none;
+    background: transparent;
+    border-radius: 3px;
+    border: solid 1px var(--branco-principal);
+    padding: 1em;
+    margin: 1em 8em;
+    display: block;
+}
+
+.texto__sob-button{
+    color: var(--cinza-sec);
+    font-size: 12px;
+    margin: 0.5em 0; /*segundo a sequencia a mrgin é altura depois largura*/
+}
+
+.conteiner__segundo{
+    text-align: center;
+    align-items: center;
+}
+
+.img__tela-pc-celuar{
+    align-items: center;
+    margin: 0 5%;
+    width: 80%;
+}
+
+.titulo__conteiner-segundo{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.texto__combo-conteinet-segundo{
+    color: var(--cinza-sec);
+ 
+}
+
+.conteiner__terceiro-div-primeiro{
+
+    
+}
+
+
+.texto__combo-conteinet-terceiro{
+    color: var(--cinza-sec);
+    margin: 25% 8% 0.3em 8%;
+}
+
+.button__alura-plus-conteier-terceiro{
+    color: var(--branco-principal);
+    text-decoration: none;
+    background-color: var(--button-blue);
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 8%;
+    padding: 5px 0;
+}
+
+.conteiner__terceiro-div-segundo{
+    text-align: center;
+}
+
+.img__tela-print{
+    align-items: center;
+    width: 80%;
+    margin: 12.5%;
+}
+
+.img__notebook-curso-aberto{
+    margin: 12.5%;
+    width: 80%;
+}
+
+.titulo__conteiner-quarto{
+    font-size: 48px;
+    width: 700;
+}
+
+.texto__combo-conteinet-quarto{
+    color: var(--cinza-sec);
+
+}
+
+.conteiner__quarto-div-segundo{
+   margin: 25% 12.5%;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 0.5em 0;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.rodape{
+    text-align: center;
+}
+
+.lista__rodape{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 2% ;
+    margin: 50px;
+}
+
+.lista__link{
+    font-size: 16px;
+    color: var(--cinza-sec);
+}
+
+.texto__rodape{
+    font-size: 14px;
+    color: var(--cinza-sec);
+    margin: 20px;
+}
